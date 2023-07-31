@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        velocity = 0;
+        velocity = 5;
     }
 
     void OnMove(InputValue movementValue)
